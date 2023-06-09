@@ -50,10 +50,8 @@ after_initialize do
     get  "/admin/plugins/discourse-unlock" => "admin_unlock#index", constraints: StaffConstraint.new
     put  "/admin/plugins/discourse-unlock" => "admin_unlock#update", constraints: StaffConstraint.new
     post "/unlock" => "unlock#unlock"
+    post "/unlock_premium" => "unlock#unlock_premium"
   end
-
-  register_category_custom_field_type(::Unlock::CF_LOCK_ADDRESS, :string)
-  register_category_custom_field_type(::Unlock::CF_LOCK_ICON, :string)
 
   Site.preloaded_category_custom_fields << ::Unlock::CF_LOCK_ADDRESS
   Site.preloaded_category_custom_fields << ::Unlock::CF_LOCK_ICON
