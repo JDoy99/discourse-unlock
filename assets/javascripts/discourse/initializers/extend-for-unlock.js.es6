@@ -50,7 +50,7 @@ export default {
                   network: 42161,
                   locks: {
                     ["0x188ef9f717c4df8b2280a477117cacac42faf069"]: {}, // DAO-Author
-                    ["0x97fe5ad7d2c3ddbb3998e8e914e0331b2ff9f2c4"]: {}, // DAO-Member
+                    ["0x9bf16924f7fc8888575ac388e87ed8f706c853db"]: {}, // DAO-Member
                   },
                   title: "Radiant DAO",
                   icon: "https://community.radiant.capital/uploads/default/original/1X/unlock-logo.svg",
@@ -76,7 +76,7 @@ export default {
 
       const settings = {
         lock_network: 42161,
-        lock_address: "0x97fe5ad7d2c3ddbb3998e8e914e0331b2ff9f2c4",
+        lock_address: "0x9bf16924f7fc8888575ac388e87ed8f706c853db",
         lock_icon:
           "https://community.radiant.capital/uploads/default/original/1X/unlock-logo.svg",
         lock_call_to_action: "Lock RDNT token",
@@ -147,7 +147,7 @@ export default {
           network: 42161,
           locks: {
             ["0x188ef9f717c4df8b2280a477117cacac42faf069"]: {},  // DAO-Author
-            ["0x97fe5ad7d2c3ddbb3998e8e914e0331b2ff9f2c4"]: {},  // DAO-Member
+            ["0x9bf16924f7fc8888575ac388e87ed8f706c853db"]: {},  // DAO-Member
           },
           title: "Radiant DAO",
           icon: "https://community.radiant.capital/uploads/default/original/1X/unlock-logo.svg",
